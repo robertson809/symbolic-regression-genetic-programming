@@ -1,4 +1,4 @@
-# Solving the 8-Puzzle
+# Symbolic Regresssion with Genetic Programming
 
 By Michael Robertson and Andrew Miller for Davidson College's Machine Reasoning Homework 2
 
