@@ -1,0 +1,29 @@
+
+\section{Experiments}
+\label{sec:expts}
+
+The difficulties of genetic programming present themselves to the designers in the form of infamously many adjustable parameters, all of which influence the end efficacy of the program in interdependent and inscrutable ways. We attempted to find a choice of population size, method of original tree generation, tree size penalty, mutation rate, mutation method, parent selection method (with its own considerable set of variable parameters), and reproduction mechanism which both cause the program to converge to a solution and to maximize the rate of that convergence. 
+
+We defined convergence as reaching a below [x] mean-squared error from the test data set, and failure to converge as moving through [x] generations without producing a new child more fit than any of its ancestors. We measured the success of our program by both the percentage of runs that converged, and the number of generations that convergence took. 
+
+
+We investigated different methods of parent selection first, believe that parameter to influence the convergence most. Our research indicated that experts in the field used tournament selection and fitness-proportion ("roulette selection") most often. 
+
+Our best results came from a [x] proportion of population size to tournament size, and when we allowed only [y] survivors for each tournament to reproduce randomly with themselves. 
+
+
+
+Second, we ran fitness proportion selection, where we chose different methods for assigning reproduction probability.
+
+
+
+For each of these methods, we allowed the selected parents to randomly reproduce with each other, producing one child per meeting, and repeated the selection process until the size of the child population reached the size of the original adult population. 
+
+
+[Present results]
+were the questions you were trying to answer? What was the
+experimental setup (number of trials, parameter settings, etc.)? What
+were you measuring? You should justify these choices when
+necessary. The accepted wisdom is that there should be enough detail
+in this section that I could reproduce your work \emph{exactly} if I
+were so motivated.

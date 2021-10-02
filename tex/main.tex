@@ -1,0 +1,87 @@
+\textsl{•}
+%%%
+% Any line that begins with a percent symbol is a comment. To compile
+% this document and view the output:
+%
+% Run Latex
+% Run Bibtex
+% Then run Latex twice.
+%
+% This should produce the output PDF file named main.pdf
+%%%
+
+% This defines the style to use for this document.
+% Do not modify.
+\documentclass[letterpaper]{article}
+
+% The following are akin to "import" statements in Python or Java -
+% these import useful commands into the document for you to use.  You
+% don't have to modify any of these lines. The AAAI package formats
+% this document in the style of submissions to the American
+% Association for Artificial Intelligence conference, one of the top
+% AI conferences in the world. You will find that many academic
+% publications in AI use this format.
+\usepackage{aaai} 
+\usepackage{times} 
+\usepackage{helvet} 
+\usepackage{courier} 
+\setlength{\pdfpagewidth}{8.5in} 
+\setlength{\pdfpageheight}{11in} 
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{graphicx}
+\usepackage{graphics}
+\usepackage{moreverb}
+\usepackage{subfigure}
+\usepackage{epsfig}
+\usepackage{txfonts}
+\usepackage{algpseudocode}
+\usepackage{multirow, multicol}
+\usepackage{url}
+\usepackage{tablefootnote}
+\usepackage{color}
+
+\setcounter{secnumdepth}{1}
+\nocopyright
+
+% Fill in your paper title, names and emails below
+% The "\\" is used to break lines. The \url command
+% is useful for typesetting URLs and email addresses (it uses the
+% Courier font).
+\title{Solving the 8-Puzzle}
+ \author{Alan Turing \and John von Neumann\\
+ \url{{alturing, jovonneumann}@davidson.edu}\\
+ Davidson College\\
+ Davidson, NC 28035\\
+ U.S.A.}
+
+% This is the "true" start of the document. All the text in your
+% write-up should be placed within the \begin{document} and
+% \end{document} decorators.
+\begin{document}
+
+\maketitle % formats the title nicely, do not modify
+
+% While at this point you could just begin your write-up, often, it's
+% useful to write each section of your write-up in a separate tex
+% file (not unlike the modular decomposition you do for code you
+% write). These \input commands insert the contents of the
+% specified tex files in the order specified. Every write-up you
+% submit must contain the following sections, in the shown order. Open
+% each of the indicated tex files to understand what goes in each
+% section, as well as for more TeX tips.
+\input{abstract}
+\input{intro}
+\input{background}
+\input{experiments}
+\input{results}
+\input{conclusion}
+\input{contributions}
+\input{ack}
+
+% This creates the references section. Open the project1.bib file to
+% see how to organize your references.
+\bibliography{project1}
+\bibliographystyle{aaai} % sets citation and bib style, do not modify
+
+\end{document}
