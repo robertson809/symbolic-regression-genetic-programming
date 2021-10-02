@@ -12,6 +12,8 @@ By Michael Robertson and Andrew Miller for Davidson College's Machine Reasoning 
     - [Definitions](#definitions)
     - [Methods](#methods)  
 - [Results](#results)
+    - [Dataset 1](#dataset-1) 
+    - [Dataset 2](#dataset-2)
 - [Conclusions](#conclusions)
 - [Contributions](#contributions)
 - [References](#references)
