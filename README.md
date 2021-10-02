@@ -6,6 +6,7 @@ By Michael Robertson and Andrew Miller for Davidson College's Machine Reasoning 
 - [Abstract](#abstract)
 - [Introduction](#introduction)
 - [Background](#background)
+    - [Preprocessing](#preprocessing)
 - [Experiments](#experiments)
 - [Results](#results)
 - [Conclusions](#conclusions)
